@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#main{
+    height:80vh;
+    width:50vw;
+    background-color: #081b29;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:3rem;
+}
+#light{
+    width:6rem;
+    height:14rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#stick{
+    width:1.2rem;
+    height: 14rem;
+    background-color: black;
+}
+.light-part{
+    width: 3rem;
+    height:3rem;
+    border-radius:100%;
+    background-color: #081b29;
+    /* opacity: 0.3; */
+    
+}
+#showTime{
+    width:4rem;
+    height:3rem;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    color:white;
+}
+.btn i{
+    font-size:3.5rem;
+}
+.btn{
+    border:1pd solid white;
+    border-radius: 100%;
+    width:4rem;
+    height:4rem;
+    background-color: white;
+    margin-top:1.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-reset{
+    display: none;
+}
+.btn-start{
+    display: none;
+}
+.addGreen{
+    background-color: darkgreen;
+    box-shadow: 1px 1px 10px Green,1px 1px 15px Green,1px 1px 20px Green,1px 1px 25px Green,1px 1px 30px Green,1px 1px 35px Green,1px 1px 40px Green ;
+}
+.addRed{
+    background-color: Red;
+    box-shadow: 1px 1px 10px red,1px 1px 15px red,1px 1px 20px red,1px 1px 25px red,1px 1px 30px red,1px 1px 35px red,1px 1px 40px red ;
+}
+.addYellow{
+    background-color: yellow;
+    box-shadow: 1px 1px 10px yellow,1px 1px 15px yellow,1px 1px 20px yellow,1px 1px 25px yellow,1px 1px 30px yellow,1px 1px 35px yellow,1px 1px 40px yellow ;
+}
